@@ -1,0 +1,113 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<title>Index</title>
+
+	<link rel="stylesheet" type="text/css" href="~/Content/style.css">
+</head>
+<body>
+	<div>
+		<table class="product-table">
+			<thead>
+				<tr>
+					<th>Product Name</th>
+					<th>Price</th>
+					<th>Info</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+
+		@*<div class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<h2 id="product-name"></h2>
+				<img id="product-image" src="" alt="Product Image">
+				<p id="product-price"></p>
+			</div>
+		</div>*@
+	<div class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2 id="product-name"></h2>
+			<div class="product-details">
+				<div class="product-image">
+					<img id="product-image" src="" alt="">
+				</div>
+				<div class="product-info">
+					<p id="product-price"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var token = $.parseJSON(localStorage.getItem("Token"));
+
+			// Make API request to get product list
+			$.ajax({
+				url: 'https://api.akilliticaretim.com/api/Product/ListProducts/0',
+				type: 'GET',
+				headers: {
+					'GUID': '5252-C88C-2911-DBF8',
+					'Content-Type': 'application/json',
+					'authorization': "Bearer " + token.data.token
+				},
+				success: function (data) {
+
+					console.log(data);
+					// Iterate over products and append rows to table
+					$.each(data.data, function (i, product) {
+
+						console.log(product);
+						var $row = $('<tr>').append(
+							$('<td>').text(product.name),
+							$('<td>').text(product.price),
+							$('<td>').append($('<button>').text('Info').attr('data-product', JSON.stringify(product)))
+						);
+						$('.product-table tbody').append($row);
+					});
+					var currentPlaceholderIndex = 1;
+					// Add click event handler to Info button
+					$('.product-table button').click(function () {
+
+						console.log($(this).data('product'))
+						var product = $(this).data('product');
+						$('#product-name').text(product.name);
+						$('#product-image').attr('src', getNextPlaceholderImageUrl());
+
+						$('#product-price').text('Price: ' + product.price);
+						$('.modal').show();
+					});
+
+					// Add click event handler to close button
+					$('.close').click(function () {
+						$('.modal').hide();
+					});
+
+					function getNextPlaceholderImageUrl() {
+						var placeholderPath = '/Content/Images/placeholders/';
+						var placeholderCount = 3; // Change this to match the number of placeholder images you have
+						var placeholderName = 'placeholder-' + currentPlaceholderIndex + '.jpg';
+						currentPlaceholderIndex = (currentPlaceholderIndex % placeholderCount) + 1;
+						return placeholderPath + placeholderName;
+					}
+				},
+				error: function (xhr, status, error) {
+					console.log(error);
+				}
+			});
+		});
+
+	</script>
+</body>
+</html>

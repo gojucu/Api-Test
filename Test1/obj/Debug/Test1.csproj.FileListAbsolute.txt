@@ -1,0 +1,158 @@
+D:\AspNet projects\TestProject\Test1\Test1\bin\Test1.dll.config
+D:\AspNet projects\TestProject\Test1\Test1\bin\Test1.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\Test1.pdb
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\csc.exe
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\csc.exe.config
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\csc.rsp
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\csi.exe
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\csi.exe.config
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\csi.rsp
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.AppContext.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Collections.Immutable.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Console.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Globalization.Calendars.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.IO.Compression.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.IO.FileSystem.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Net.Http.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Net.Sockets.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Reflection.Metadata.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.ValueTuple.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Xml.XPath.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\vbc.exe
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\vbc.exe.config
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\vbc.rsp
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\VBCSCompiler.exe
+D:\AspNet projects\TestProject\Test1\Test1\bin\roslyn\VBCSCompiler.exe.config
+D:\AspNet projects\TestProject\Test1\Test1\bin\Antlr3.Runtime.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\Microsoft.Web.Infrastructure.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\Newtonsoft.Json.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Helpers.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Mvc.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Optimization.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Razor.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.WebPages.Deployment.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.WebPages.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.WebPages.Razor.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\WebGrease.dll
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Helpers.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Mvc.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Optimization.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.Razor.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.WebPages.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.WebPages.Deployment.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\System.Web.WebPages.Razor.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\Newtonsoft.Json.xml
+D:\AspNet projects\TestProject\Test1\Test1\bin\Antlr3.Runtime.pdb
+D:\AspNet projects\TestProject\Test1\Test1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\AspNet projects\TestProject\Test1\Test1\obj\Debug\Test1.csproj.AssemblyReference.cache
+D:\AspNet projects\TestProject\Test1\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+D:\AspNet projects\TestProject\Test1\Test1\obj\Debug\Test1.csproj.CopyComplete
+D:\AspNet projects\TestProject\Test1\Test1\obj\Debug\Test1.dll
+D:\AspNet projects\TestProject\Test1\Test1\obj\Debug\Test1.pdb
+D:\Github\Api-Test\Test1\bin\Test1.dll.config
+D:\Github\Api-Test\Test1\bin\Test1.dll
+D:\Github\Api-Test\Test1\bin\Test1.pdb
+D:\Github\Api-Test\Test1\bin\roslyn\csc.exe
+D:\Github\Api-Test\Test1\bin\roslyn\csc.exe.config
+D:\Github\Api-Test\Test1\bin\roslyn\csc.rsp
+D:\Github\Api-Test\Test1\bin\roslyn\csi.exe
+D:\Github\Api-Test\Test1\bin\roslyn\csi.exe.config
+D:\Github\Api-Test\Test1\bin\roslyn\csi.rsp
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Github\Api-Test\Test1\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.AppContext.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Collections.Immutable.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Console.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Globalization.Calendars.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.IO.Compression.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.IO.FileSystem.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Net.Http.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Net.Sockets.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Reflection.Metadata.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.ValueTuple.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Xml.XPath.dll
+D:\Github\Api-Test\Test1\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Github\Api-Test\Test1\bin\roslyn\vbc.exe
+D:\Github\Api-Test\Test1\bin\roslyn\vbc.exe.config
+D:\Github\Api-Test\Test1\bin\roslyn\vbc.rsp
+D:\Github\Api-Test\Test1\bin\roslyn\VBCSCompiler.exe
+D:\Github\Api-Test\Test1\bin\roslyn\VBCSCompiler.exe.config
+D:\Github\Api-Test\Test1\bin\Antlr3.Runtime.dll
+D:\Github\Api-Test\Test1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Github\Api-Test\Test1\bin\Microsoft.Web.Infrastructure.dll
+D:\Github\Api-Test\Test1\bin\Newtonsoft.Json.dll
+D:\Github\Api-Test\Test1\bin\System.Web.Helpers.dll
+D:\Github\Api-Test\Test1\bin\System.Web.Mvc.dll
+D:\Github\Api-Test\Test1\bin\System.Web.Optimization.dll
+D:\Github\Api-Test\Test1\bin\System.Web.Razor.dll
+D:\Github\Api-Test\Test1\bin\System.Web.WebPages.Deployment.dll
+D:\Github\Api-Test\Test1\bin\System.Web.WebPages.dll
+D:\Github\Api-Test\Test1\bin\System.Web.WebPages.Razor.dll
+D:\Github\Api-Test\Test1\bin\WebGrease.dll
+D:\Github\Api-Test\Test1\bin\System.Web.Helpers.xml
+D:\Github\Api-Test\Test1\bin\System.Web.Mvc.xml
+D:\Github\Api-Test\Test1\bin\System.Web.Optimization.xml
+D:\Github\Api-Test\Test1\bin\System.Web.Razor.xml
+D:\Github\Api-Test\Test1\bin\System.Web.WebPages.xml
+D:\Github\Api-Test\Test1\bin\System.Web.WebPages.Deployment.xml
+D:\Github\Api-Test\Test1\bin\System.Web.WebPages.Razor.xml
+D:\Github\Api-Test\Test1\bin\Newtonsoft.Json.xml
+D:\Github\Api-Test\Test1\bin\Antlr3.Runtime.pdb
+D:\Github\Api-Test\Test1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Github\Api-Test\Test1\obj\Debug\Test1.csproj.AssemblyReference.cache
+D:\Github\Api-Test\Test1\obj\Debug\Test1.csproj.CoreCompileInputs.cache
+D:\Github\Api-Test\Test1\obj\Debug\Test1.csproj.CopyComplete
+D:\Github\Api-Test\Test1\obj\Debug\Test1.dll
+D:\Github\Api-Test\Test1\obj\Debug\Test1.pdb

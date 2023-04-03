@@ -1,0 +1,80 @@
+﻿
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kullanıcı girişi</title>
+
+	<link rel="stylesheet" type="text/css" href="~/Content/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="logo">
+			<img src="~/Content/Images/logo.png" alt="Logo">
+		</div>
+		<h2>Login</h2>
+		<form>
+			<label for="txtUsername">Kullanıcı Adı</label>
+			<input type="text" id="txtUsername" name="txtUsername" placeholder="Kullanıcı adınızı giriniz">
+
+			<label for="txtPassword">Şifre</label>
+			<input type="password" id="txtPassword" name="txtPassword" placeholder="Şifrenizi giriniz">
+
+			<button type="button" id="btnLogin">Giriş Yap</button>
+		</form>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$("#btnLogin").click(function () {
+				var username = $("#txtUsername").val();
+				var password = $("#txtPassword").val();
+				var loginUrl = "https://api.akilliticaretim.com/api/Auth/Login";
+				var guid = "5252-C88C-2911-DBF8";
+				var contentType = "application/json";
+				var requestData = JSON.stringify({ "userName": username, "password": password });
+
+				$.ajax({
+					url: loginUrl,
+					type: "POST",
+					headers: {
+						"GUID": guid,
+						"Content-Type": contentType
+					},
+					data: requestData,
+					success: function (data) {
+						var jsonVeri = JSON.stringify(data);
+						var veri = JSON.parse(jsonVeri);
+						if (data.status) {
+	
+							localStorage.setItem("Token", JSON.stringify(veri));
+							var token = $.parseJSON(localStorage.getItem("Token"));
+							console.log("hey " + token.data.token);
+							window.location.href = "/Urunler/Index";
+							alert("Giriş başarılı!");
+						} else {
+							alert("Giriş işlemi sırasında hata oluştu!");
+						}
+						//console.log(veri);
+						//console.log(veri.data);
+						//console.log(veri.data.token);
+						//console.log(veri.status);
+
+					},
+					error: function (jqXHR, textStatus, errorThrown) {
+						// Giriş işlemi sırasında hata oluştuğunda bu kısımda hata mesajını gösterebilirsiniz.
+						console.log(errorThrown);
+						alert("Giriş işlemi sırasında hata oluştu!");
+					}
+				});
+			});
+		});
+	</script>
+</body>
+
+
+</html>
